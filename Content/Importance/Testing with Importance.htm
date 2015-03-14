@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="547" MadCap:lastWidth="726">
+    <head>
+    </head>
+    <body>
+        <h1>Testing with Importance</h1>
+        <p>
+            <MadCap:concept term="search" />Topics which have more topics linked to it are not showing up higher in search results</p>
+        <ol>
+            <li>Open the HTML5 target |Advanced tab and see that "Include Importance" is selected</li>
+            <li>Build the target and view the output - search for the word "important"</li>
+            <li>See that the search results show the topics which start with the words "one important heading with # link" - but the topics with less links show up higher in the search results than the ones that have more links.  The topic with no links to it show up first in the list.</li>
+        </ol>
+        <h4>Desired</h4>
+        <p>The topics which are linked to from more topics should show up higher in search results than topics which are linked to from less topics.</p>
+        <h3>Desired order:</h3>
+        <p>One important Heading with 6 xref/href  links</p>
+        <p>One important Heading with 5 xref/href  links</p>
+        <p>One important Heading with 4 xref/href  links</p>
+        <p>One important Heading with 3 xref/href  links</p>
+        <p>One important Heading with 2 xref/href  links</p>
+        <p>One important Heading with 1 xref/href  links</p>
+        <p>There are no important headings links</p>
+    </body>
+</html>

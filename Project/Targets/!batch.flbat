@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultBatchTarget Version="1" Comment="New Batch Target" Guid="5d1f0df8-96f8-42f9-bfa6-8698dcbc76e1">
+    <Targets>
+        <Target Name="partial_enabled/dotnet" Type="DotNet Help" Build="true" LastBuilt="3/12/2015 4:55:02 PM" LastPublished="" />
+        <Target Name="partial_enabled/HTML5 none" Type="HTML5" Build="true" LastBuilt="3/12/2015 5:10:39 PM" LastPublished="" />
+        <Target Name="partial_enabled/Static &amp; Tripane" Type="HTML5" Build="true" LastBuilt="3/12/2015 5:12:26 PM" LastPublished="" />
+        <Target Name="partial_enabled/!HTML5 top" Type="HTML5" Build="true" LastBuilt="3/12/2015 5:12:28 PM" LastPublished="" />
+        <Target Name="partial_enabled/HTML5 tripane" Type="HTML5" Build="true" LastBuilt="3/12/2015 8:50:52 PM" LastPublished="" />
+        <Target Name="partial_enabled/mobile" Type="WebHelp Mobile" Build="true" LastBuilt="" LastPublished="" />
+        <Target Name="partial_enabled/pdf" Type="PDF" Build="true" LastBuilt="" LastPublished="" />
+        <Target Name="partial_enabled/webhelp" Type="WebHelp" Build="true" LastBuilt="3/12/2015 4:55:22 PM" LastPublished="" />
+    </Targets>
+</CatapultBatchTarget>
